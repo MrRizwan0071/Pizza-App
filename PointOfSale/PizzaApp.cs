@@ -11,7 +11,7 @@ using System.Windows.Forms;
  * Alex Mack 
  * Program: Pizza App
  * Date/Time: 10/12/2014 @ 8:35 PM
- * Modified Date/Time: 1/20/2015 @ 1:33 AM
+ * Modified Date/Time: 1/20/2015 @ 3:12 AM
  * 
  */
 
@@ -77,9 +77,9 @@ namespace PointOfSale
             
             taxAmt = cost * 0.10;
             total = taxAmt + cost;
-
+                       
             txtTaxAmt.Text = taxAmt.ToString();
-            txtTotal.Text = total.ToString();
+            txtTotal.Text = Math.Round(total, 2).ToString();
             
 
 
