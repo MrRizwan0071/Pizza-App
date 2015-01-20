@@ -1,0 +1,8 @@
+C:\Users\amack28\documents\visual studio 2010\Projects\PointOfSale\PointOfSale\bin\Debug\PointOfSale.exe
+C:\Users\amack28\documents\visual studio 2010\Projects\PointOfSale\PointOfSale\bin\Debug\PointOfSale.pdb
+C:\Users\amack28\documents\visual studio 2010\Projects\PointOfSale\PointOfSale\obj\x86\Debug\PointOfSale.PizzaApp.resources
+C:\Users\amack28\documents\visual studio 2010\Projects\PointOfSale\PointOfSale\obj\x86\Debug\PointOfSale.Properties.Resources.resources
+C:\Users\amack28\documents\visual studio 2010\Projects\PointOfSale\PointOfSale\obj\x86\Debug\PointOfSale.csproj.GenerateResource.Cache
+C:\Users\amack28\documents\visual studio 2010\Projects\PointOfSale\PointOfSale\obj\x86\Debug\PointOfSale.exe
+C:\Users\amack28\documents\visual studio 2010\Projects\PointOfSale\PointOfSale\obj\x86\Debug\PointOfSale.pdb
+C:\Users\amack28\Documents\Visual Studio 2010\Projects\PointOfSale\PointOfSale\obj\x86\Debug\PointOfSale.csprojResolveAssemblyReference.cache
