@@ -48,6 +48,7 @@
             this.lbl4 = new System.Windows.Forms.Label();
             this.txtTotal = new System.Windows.Forms.TextBox();
             this.lstMenu = new System.Windows.Forms.ListBox();
+            this.lblCpy = new System.Windows.Forms.Label();
             this.sizeBox.SuspendLayout();
             this.ToppingsBox.SuspendLayout();
             this.SuspendLayout();
@@ -279,12 +280,24 @@
             this.lstMenu.Size = new System.Drawing.Size(178, 95);
             this.lstMenu.TabIndex = 10;
             // 
+            // lblCpy
+            // 
+            this.lblCpy.AutoSize = true;
+            this.lblCpy.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCpy.ForeColor = System.Drawing.Color.Green;
+            this.lblCpy.Location = new System.Drawing.Point(453, 375);
+            this.lblCpy.Name = "lblCpy";
+            this.lblCpy.Size = new System.Drawing.Size(84, 14);
+            this.lblCpy.TabIndex = 11;
+            this.lblCpy.Text = "2015 Alex Mack";
+            // 
             // PizzaApp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(564, 392);
+            this.ClientSize = new System.Drawing.Size(573, 397);
+            this.Controls.Add(this.lblCpy);
             this.Controls.Add(this.lstMenu);
             this.Controls.Add(this.txtTotal);
             this.Controls.Add(this.lbl4);
@@ -330,6 +343,7 @@
         private System.Windows.Forms.Label lbl4;
         private System.Windows.Forms.TextBox txtTotal;
         private System.Windows.Forms.ListBox lstMenu;
+        private System.Windows.Forms.Label lblCpy;
     }
 }
 

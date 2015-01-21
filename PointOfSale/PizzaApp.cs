@@ -11,7 +11,7 @@ using System.Windows.Forms;
  * Alex Mack 
  * Program: Pizza App
  * Date/Time: 10/12/2014 @ 8:35 PM
- * Modified Date/Time: 1/20/2015 @ 3:12 AM
+ * Modified Date/Time: 1/20/2015 @ 9:05 PM
  * 
  */
 
@@ -22,6 +22,9 @@ namespace PointOfSale
         public PizzaApp()
         {
             InitializeComponent();
+
+            int copyright = 169;
+            lblCpy.Text = (char)copyright + " " + lblCpy.Text;
         }
 
         private void btnSubmit_Click(object sender, EventArgs e)
@@ -80,11 +83,10 @@ namespace PointOfSale
                        
             txtTaxAmt.Text = taxAmt.ToString();
             txtTotal.Text = Math.Round(total, 2).ToString();
-            
-
-
 
         }
+
+        
 
        
     }
